@@ -73,21 +73,38 @@ header {
 .faixa {
     padding: 50px;
     display: flex;
-    background-color: gray;
+    /* background-color: gray; */
     height: 10vh;
     justify-content: space-between;
     align-items: center;
 }
+.faixa img {
+    height: 2vh;
+}
 .seta_model_over_view {
-    background-color: white;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
     height: 10vh;
-    width: 5vw;
+    width: 10vw;
+    font-size: 17px;
 }
+h1 {
+    font-size: 56px;
+}
+
 .salvar_configuracao {
-    background-color: white;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
     height: 10vh;
-    width: 5vw;
+    width: 10vw;
+    font-size: 17px;
 }
+
 
 
 
